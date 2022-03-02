@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = '14056584895';
+  telephoneNumber = '14056584895';
 }
