@@ -16,11 +16,14 @@ export class InternationalNumberFormatterPipe implements PipeTransform {
         value !== value.replace(/  /g, ' ')
           ? parseInt(value.slice(3, 4))
           : parseInt(value.slice(3, 6));
-      const countryData = flagsNameCountryCode.find((el) => el.countryPrefix === countryPrefix);
+      const countryData = flagsNameCountryCode.find(
+        (el) => el.countryPrefix === countryPrefix
+      );
       const number = this.libraryInstance.parseAndKeepRawInput(
         numberWithoutPlus,
         countryData.regionCode
       );
+      console.log(countryData);
       return this.libraryInstance.format(
         number,
         PhoneNumberFormat.INTERNATIONAL
