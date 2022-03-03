@@ -1,3 +1,17 @@
+<ul>
+  <li *ngFor="let input of inputs">
+    <input
+      type="radio"
+      [(ngModel)]="telephoneNumber"
+      id="{{ input.name }}"
+      name="inputs"
+      value="{{ input.value }}"
+      (change)="changeValue(input)"
+    />
+    <label for="{{ input.name }}">{{ input.value }}</label>
+  </li>
+</ul>
+
 <p>Número de telefono: {{ telephoneNumber }}</p>
 <p style="margin-top: 20px">
   Número formateado: {{ telephoneNumber | internationalNumberFormatter }}

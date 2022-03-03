@@ -1,3 +1,13 @@
 p {
   font-family: Lato;
 }
+
+input {
+  margin: 10px;
+  margin-right: 8px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 5px;
+}
