@@ -78,6 +78,26 @@ export class AppComponent {
       country: 'Australia',
       value: '01161 283499876',
     },
+    {
+      name: 'input15',
+      country: 'Brasil',
+      value: '01155 1123456789',
+    },
+    {
+      name: 'input16',
+      country: 'Austria',
+      value: '01143 6602770054',
+    },
+    {
+      name: 'input17',
+      country: 'Ecuador',
+      value: '011593989442839',
+    },
+    {
+      name: 'input18',
+      country: 'Colombia',
+      value: '01157 3204766307',
+    },
   ];
 
   changeValue(event) {

@@ -23,7 +23,7 @@ export class InternationalNumberFormatterPipe implements PipeTransform {
         numberWithoutPlus,
         countryData.regionCode
       );
-      console.log(countryData);
+      console.log(countryData, this.libraryInstance.getExampleNumber('CO'));
       return this.libraryInstance.format(
         number,
         PhoneNumberFormat.INTERNATIONAL
