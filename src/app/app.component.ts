@@ -53,6 +53,31 @@ export class AppComponent {
       country: 'Portugal',
       value: '011351213665399',
     },
+    {
+      name: 'input10',
+      country: 'Netherlands',
+      value: '01131 707006106',
+    },
+    {
+      name: 'input11',
+      country: 'Spain',
+      value: '01134 918362265',
+    },
+    {
+      name: 'input12',
+      country: 'Switzerland',
+      value: '01141 445246766',
+    },
+    {
+      name: 'input13',
+      country: 'UK',
+      value: '01144 03330045000',
+    },
+    {
+      name: 'input14',
+      country: 'Australia',
+      value: '01161 283499876',
+    },
   ];
 
   changeValue(event) {
