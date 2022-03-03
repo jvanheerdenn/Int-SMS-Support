@@ -1,3 +1,8 @@
+<p>Número de telefono: {{ telephoneNumber }}</p>
+<p style="margin-top: 20px">
+  Número formateado: {{ telephoneNumber | internationalNumberFormatter }}
+</p>
+
 <ul>
   <li *ngFor="let input of inputs">
     <input
@@ -8,11 +13,8 @@
       value="{{ input.value }}"
       (change)="changeValue(input)"
     />
-    <label for="{{ input.name }}">{{ input.value }}</label>
+    <label for="{{ input.name }}">
+      {{ input.country }}: {{ input.value }}</label
+    >
   </li>
 </ul>
-
-<p>Número de telefono: {{ telephoneNumber }}</p>
-<p style="margin-top: 20px">
-  Número formateado: {{ telephoneNumber | internationalNumberFormatter }}
-</p>

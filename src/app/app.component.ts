@@ -10,15 +10,23 @@ export class AppComponent  {
   inputs = [
     {
       name: 'input1',
+      country: 'USA',
       value: '14056584895'
     },
     {
       name: 'input2',
+      country: 'Argentina',
       value: '01154 2974134076'
     },
     {
       name: 'input3',
+      country: 'Albania',
       value: '011355042273778'
+    },
+    {
+      name: 'input4',
+      country: 'Costa Rica',
+      value: '01150622995800'
     },
   ]
 
