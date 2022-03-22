@@ -13,9 +13,10 @@ export class InternationalNumberFormatterPipe implements PipeTransform {
     if (hasPlus) {
       const numberWithoutPlus = value.slice(3);
       const countryPrefix =
-        value !== value.replace(/  /g, ' ')
-          ? parseInt(value.slice(3, 4))
-          : parseInt(value.slice(3, 6));
+        value !== value.replace(/ {2}/g, ' ')
+          ? parseInt(value.slice(5, 6), 10)
+          : parseInt(value.slice(3, 6).trim(), 10);
+      console.log(countryPrefix);
       const countryData = flagsNameCountryCode.find(
         (el) => el.countryPrefix === countryPrefix
       );
@@ -23,7 +24,6 @@ export class InternationalNumberFormatterPipe implements PipeTransform {
         numberWithoutPlus,
         countryData.regionCode
       );
-      console.log(countryData, this.libraryInstance.getExampleNumber('CO'));
       return this.libraryInstance.format(
         number,
         PhoneNumberFormat.INTERNATIONAL

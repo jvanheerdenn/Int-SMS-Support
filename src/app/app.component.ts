@@ -16,7 +16,7 @@ export class AppComponent {
     {
       name: 'input2',
       country: 'Argentina',
-      value: '01154 2974134076',
+      value: '011 542974134076',
     },
     {
       name: 'input3',
@@ -41,12 +41,12 @@ export class AppComponent {
     {
       name: 'input7',
       country: 'France',
-      value: '01133 186995728',
+      value: '011 33186995728',
     },
     {
       name: 'input8',
       country: 'Italy',
-      value: '01139 0689386502',
+      value: '011 390689386502',
     },
     {
       name: 'input9',
@@ -56,37 +56,37 @@ export class AppComponent {
     {
       name: 'input10',
       country: 'Netherlands',
-      value: '01131 707006106',
+      value: '011 31707006106',
     },
     {
       name: 'input11',
       country: 'Spain',
-      value: '01134 918362265',
+      value: '011 34918362265',
     },
     {
       name: 'input12',
       country: 'Switzerland',
-      value: '01141 445246766',
+      value: '011 41445246766',
     },
     {
       name: 'input13',
       country: 'UK',
-      value: '01144 03330045000',
+      value: '011 4403330045000',
     },
     {
       name: 'input14',
       country: 'Australia',
-      value: '01161 283499876',
+      value: '011 61283499876',
     },
     {
       name: 'input15',
       country: 'Brasil',
-      value: '01155 1123456789',
+      value: '011 551123456789',
     },
     {
       name: 'input16',
       country: 'Austria',
-      value: '01143 6602770054',
+      value: '011 436602770054',
     },
     {
       name: 'input17',
@@ -96,7 +96,12 @@ export class AppComponent {
     {
       name: 'input18',
       country: 'Colombia',
-      value: '01157 3204766307',
+      value: '011 573204766307',
+    },
+    {
+      name: 'input19',
+      country: 'Kazakhstan',
+      value: '011  77273333000',
     },
   ];
 
