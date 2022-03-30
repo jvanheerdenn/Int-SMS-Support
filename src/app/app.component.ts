@@ -103,6 +103,16 @@ export class AppComponent {
       country: 'Kazakhstan',
       value: '011  77273333000',
     },
+    {
+      name: 'input20',
+      country: 'China',
+      value: '011 86273333000',
+    },
+    {
+      name: 'input21',
+      country: 'China',
+      value: '011 862026098979',
+    },
   ];
 
   changeValue(event) {
